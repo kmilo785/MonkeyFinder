@@ -5,11 +5,14 @@
              x:Class="MonkeyFinder.View.MainPage">
 
     <CollectionView>
-        <CollectiionView.itemSource>
-            
-            
-            
-        </CollectiionView.itemSource>
+        <CollectionView.ItemsSource>
+            <x:Array Type="{x:Type model: Monkey}">
+                <model:Monkey Name= "Baboon"/>
+                <model:Monkey Name= "Capuchin Monkey"/>
+                <model:Monkey Name= "Red-shanked douc"/>
+            </x:Array>
+        </CollectionView.ItemsSource>
+
     </CollectionView>
     
 </ContentPage>
